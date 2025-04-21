@@ -3,10 +3,7 @@ print (
 )
 
 print (
-    "-=-"*10
-)
-print (
-    "\n"
+    "-=-"*10 , "\n"
 )
 
 correct_answers = 0
