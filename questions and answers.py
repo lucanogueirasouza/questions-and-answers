@@ -34,11 +34,11 @@ def sleep_screen():
 question_1 = (print(
     "QUESTION 1) WHAT IS 2+2?\nA) 2\nB) 4\nC) 6"
     ))
-correct_answer1 = "B"
+CORRECT_ANSWER1 = "B"
 person_answer1 = str(input(
     "TYPE YOUR ANSWER: "
 )).upper().strip()
-print (questions(person_answer1,correct_answer1))
+print (questions(person_answer1,CORRECT_ANSWER1))
 sleep_screen()
 clear_screen()
 
@@ -48,11 +48,11 @@ print (
 question_2 = (print(
     "QUESTION 2) WHAT IS 7/7?\nA) 2\nB) 8\nC) 1"
     ))
-correct_answer2 = "C"
+CORRECT_ANSWER2 = "C"
 person_answer2 = str(input(
     "TYPE YOUR ANSWER: "
 )).upper().strip()
-print (questions(person_answer2,correct_answer2))
+print (questions(person_answer2,CORRECT_ANSWER2))
 sleep_screen()
 clear_screen()
 
@@ -63,11 +63,11 @@ print (
 question_3 = (print(
     "QUESTION 3) HOW MUCH IS 10*2?\nA) 30\nB) 20\nC) 50"
     ))
-correct_answer3 = "B"
+CORRECT_ANSWER3 = "B"
 person_answer3 = str(input(
     "TYPE YOUR ANSWER: "
 )).upper().strip()
-print (questions(person_answer3,correct_answer3))
+print (questions(person_answer3,CORRECT_ANSWER3))
 sleep_screen()
 clear_screen()
 
